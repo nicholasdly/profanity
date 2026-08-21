@@ -1,11 +1,7 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-  plugins: [],
-  test: {
-    environment: 'node',
-  },
   resolve: {
     tsconfigPaths: true,
-  }
-})
+  },
+});
